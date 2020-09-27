@@ -5,10 +5,10 @@ with open("Readme.md", "r") as fh:
 
 setuptools.setup(
     name="dudesec",
-    version="3.0.0",
+    version="0.0.3",
     author="Gustavo de Oliveira Rosa",
     author_email="gustavoolrosa2019@gmail.com",
-    description="Library para monitoramento de sistemas e exploração de vuLnerabilidades.",
+    description="Library para monitoramento de sistemas e exploração de vulnerabilidades.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/GustavoOliveiraRosa/DudSecPython",
