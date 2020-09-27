@@ -1,5 +1,9 @@
 import socket
 import os
+from urllib.request import urlopen
+from ping3 import ping, verbose_ping
+from bs4 import BeautifulSoup
+import requests 
 
 def dudePortScanner(ip,x,y):
     portasAbertas = []
@@ -27,7 +31,36 @@ def dudePortScanner(ip,x,y):
 
         
         if x == y:
-            print(portasAbertas)
+            return portasAbertas
             break
         else:
             x = x+1
+
+
+
+def dudeVerifySite(link):
+    # Pingando o endereço para validar o dominio
+    r = ping(link)
+    if r == False or r == None:
+        return False
+    else:
+        # Fazendo webscrapping para validar a estrutura da página e verificar erros: 404,504,etc.
+        html = urlopen("http://"+link)
+        res = BeautifulSoup(html.read(),"html5lib")
+        if res.title != "":
+            return True
+        else:
+            return False
+
+def dudeVerifyAPI(link):
+# Pingando o endereço para validar o dominio
+    r = ping(link)
+    if r == False or r == None:
+        return False
+
+    else:
+        resp = requests.get("http://"+link)
+        if resp.status_code == 200:
+            return True
+        else:
+            return False
