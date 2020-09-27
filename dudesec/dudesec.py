@@ -1,5 +1,8 @@
 import socket
 import os
+from urllib.request import urlopen
+from ping3 import ping, verbose_ping
+from bs4 import BeautifulSoup
 
 def dudePortScanner(ip,x,y):
     portasAbertas = []
@@ -31,3 +34,15 @@ def dudePortScanner(ip,x,y):
             break
         else:
             x = x+1
+
+def dudeVerifySite(link):
+    r = ping(link)
+    if r == False or r == None:
+        return False
+    else:
+        html = urlopen("http://"+link)
+        res = BeautifulSoup(html.read(),"html5lib")
+        if res.title != "":
+            return True
+        else:
+            return False
