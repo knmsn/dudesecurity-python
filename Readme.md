@@ -17,10 +17,7 @@ Para acompanhar a library, usamos a seguinte lógica: Na branch master, estará 
   - Scanner de portas abertas a partir de um range pré definido. (v0.0.1)
   - Monitoramento de aplicações WEB através de webscrapping. (v0.0.2)
   - Monitoramento de dominios.(v0.0.2)
-  
-Ideias para próximas atualizações:
-
-  - Monitoramento de aplicações APIS.
+  - Monitoramento de aplicações APIS.(v0.0.3)
 
 > Lembrando que, o repositório está e sempre estará aberto a novas opiniões
 > e ponto de vista. Portanto, ao requisitar alguma atualização lembre-se

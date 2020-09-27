@@ -1,9 +1,0 @@
-LICENSE.txt
-setup.cfg
-setup.py
-dudesec/__init__.py
-dudesec/dudesec.py
-dudesec.egg-info/PKG-INFO
-dudesec.egg-info/SOURCES.txt
-dudesec.egg-info/dependency_links.txt
-dudesec.egg-info/top_level.txt
