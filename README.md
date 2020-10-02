@@ -23,6 +23,11 @@ Para acompanhar a library, usamos a seguinte lógica: Na branch master, estará 
 > e ponto de vista. Portanto, ao requisitar alguma atualização lembre-se
 > que esta lib é uma ajuda, não um direito tenha educação e simpatia.
 
+# Ideias para possiveis atualizações:
+
+- Criptografia de texto
+- Gerador de WordList para ataques brute force
+
 ### Como instalar
 
 Para usar esta library com o Python é bem simples, basta instala-la usando o gerenciador de pacotes pipy , com o seguinte comando:
