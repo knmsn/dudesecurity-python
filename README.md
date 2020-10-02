@@ -18,7 +18,8 @@ Para acompanhar a library, usamos a seguinte lógica: Na branch master, estará 
   - Monitoramento de aplicações WEB através de webscrapping. (v0.0.2)
   - Monitoramento de dominios.(v0.0.2)
   - Monitoramento de aplicações APIS.(v0.0.3)
-  - Implementação de WEBHOOK para atualizações
+  - Implementação de WEBHOOK para atualizações. (v0.0.4)
+  - Codificação e decodificação de textos usando base64.(v0.0.4)
 
 > Lembrando que, o repositório está e sempre estará aberto a novas opiniões
 > e ponto de vista. Portanto, ao requisitar alguma atualização lembre-se
