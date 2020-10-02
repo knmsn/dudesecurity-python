@@ -4,6 +4,8 @@ from urllib.request import urlopen
 from ping3 import ping, verbose_ping
 from bs4 import BeautifulSoup
 import requests 
+import base64
+
 
 def dudePortScanner(ip,x,y):
     portasAbertas = []
@@ -52,6 +54,8 @@ def dudeVerifySite(link):
         else:
             return False
 
+
+
 def dudeVerifyAPI(link):
 # Pingando o endereço para validar o dominio
     r = ping(link)
@@ -64,3 +68,11 @@ def dudeVerifyAPI(link):
             return True
         else:
             return False
+
+def dudeEncodeb64(texto):
+    textEncoded = base64.b64encode(texto.encode())
+    return textEncoded
+
+def dudeDecodeb64(texto):
+    textDecoded = base64.b64decode(texto.encode())
+    return textDecoded
