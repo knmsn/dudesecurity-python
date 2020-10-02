@@ -72,3 +72,7 @@ def dudeVerifyAPI(link):
 def dudeEncodeb64(texto):
     textEncoded = base64.b64encode(texto.encode())
     return textEncoded
+
+def dudeDecodeb64(texto):
+    textDecoded = base64.b64decode(texto.encode())
+    return textDecoded
