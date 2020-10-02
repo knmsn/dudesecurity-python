@@ -27,7 +27,7 @@ Para acompanhar a library, usamos a seguinte lógica: Na branch master, estará 
 
 - Criptografia de texto
 - Gerador de WordList para ataques brute force
-- Captura de tela de website por webscrapping.
+- Captura de tela de website por webscrapping
 
 ### Como instalar
 
