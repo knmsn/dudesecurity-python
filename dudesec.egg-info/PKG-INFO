@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: dudesec
-Version: 0.0.3
+Version: 0.0.5
 Summary: Library para monitoramento de sistemas e exploração de vulnerabilidades.
 Home-page: https://github.com/GustavoOliveiraRosa/DudSecPython
 Author: Gustavo de Oliveira Rosa
@@ -26,10 +26,18 @@ Description: # DudeProject - DudeSec v0.0.3
           - Monitoramento de aplicações WEB através de webscrapping. (v0.0.2)
           - Monitoramento de dominios.(v0.0.2)
           - Monitoramento de aplicações APIS.(v0.0.3)
+          - Implementação de WEBHOOK para atualizações. (v0.0.4)
+          - Codificação e decodificação de textos usando base64.(v0.0.4)
         
         > Lembrando que, o repositório está e sempre estará aberto a novas opiniões
         > e ponto de vista. Portanto, ao requisitar alguma atualização lembre-se
         > que esta lib é uma ajuda, não um direito tenha educação e simpatia.
+        
+        # Ideias para possiveis atualizações:
+        
+        - Criptografia de texto
+        - Gerador de WordList para ataques brute force
+        - Captura de tela de website por webscrapping
         
         ### Como instalar
         
@@ -51,6 +59,7 @@ Description: # DudeProject - DudeSec v0.0.3
         ## Desenvolvedores:
         
         Gustavo de Oliveira Rosa
+        
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
