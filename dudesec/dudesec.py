@@ -94,6 +94,7 @@ def generator_password(password, size =10):
 
     print(f'Senha gerada: \033[31m{password}')
 
+    return password
 
 
-generator_password(password)
+
