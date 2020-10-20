@@ -6,6 +6,9 @@ from bs4 import BeautifulSoup
 import requests 
 import base64
 
+import string
+from random import random, choice
+
 
 def dudePortScanner(ip,x,y):
     portasAbertas = []
@@ -76,3 +79,21 @@ def dudeEncodeb64(texto):
 def dudeDecodeb64(texto):
     textDecoded = base64.b64decode(texto.encode())
     return textDecoded
+
+
+#Gerador de senha aleatoria --------------
+
+values = string.ascii_letters + string.digits + '@#&$'
+
+password = ""
+
+def generator_password(password, size =10):
+
+    for i in range(size):
+        password += choice(values)
+
+    print(f'Senha gerada: \033[31m{password}')
+
+
+
+generator_password(password)
