@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: dudesec
-Version: 0.0.3
+Version: 0.0.8
 Summary: Library para monitoramento de sistemas e exploração de vulnerabilidades.
 Home-page: https://github.com/GustavoOliveiraRosa/DudSecPython
 Author: Gustavo de Oliveira Rosa
@@ -11,46 +11,55 @@ Description: # DudeProject - DudeSec v0.0.3
         [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://test.pypi.org/project/dudesec/1.0.0/)
         
         
-        O projeto Dude tem como objetivo criar librarys para diversas funcionalidades em diversas linguagens, portanto, um de seus módulos é o de Seguranca Cibernética.
-        Neste repositório, iremos abranger os seguintes objetivos:
+        O projeto Dude tem como objetivo criar librarys para diversas funcionalidades em diversas linguagens, portanto, um de seus mÃ³dulos Ã© o de Seguranca CibernÃ©tica.
+        Neste repositÃ³rio, iremos abranger os seguintes objetivos:
         
-          - Segurança e monitoramento de redes.
-          - Segurança e monitoramento de servidores.
-          - Segurança e monitoramento de aplicações.
+          - SeguranÃ§a e monitoramento de redes.
+          - SeguranÃ§a e monitoramento de servidores.
+          - SeguranÃ§a e monitoramento de aplicaÃ§Ãµes.
         
-        Para acompanhar a library, usamos a seguinte lógica: Na branch master, estará presente a versão mais atual. Nas outras branchs, estarão disponibilizadas o código de acordo com a versão.
+        Para acompanhar a library, usamos a seguinte lÃ³gica: Na branch master, estarÃ¡ presente a versÃ£o mais atual. Nas outras branchs, estarÃ£o disponibilizadas o cÃ³digo de acordo com a versÃ£o.
         
-        # Ferramentas presentes na versão atual:
+        # Ferramentas presentes na versÃ£o atual:
         
-          - Scanner de portas abertas a partir de um range pré definido. (v0.0.1)
-          - Monitoramento de aplicações WEB através de webscrapping. (v0.0.2)
+          - Scanner de portas abertas a partir de um range prÃ© definido. (v0.0.1)
+          - Monitoramento de aplicaÃ§Ãµes WEB atravÃ©s de webscrapping. (v0.0.2)
           - Monitoramento de dominios.(v0.0.2)
-          - Monitoramento de aplicações APIS.(v0.0.3)
+          - Monitoramento de aplicaÃ§Ãµes APIS.(v0.0.3)
+          - ImplementaÃ§Ã£o de WEBHOOK para atualizaÃ§Ãµes. (v0.0.4)
+          - CodificaÃ§Ã£o e decodificaÃ§Ã£o de textos usando base64.(v0.0.4)
         
-        > Lembrando que, o repositório está e sempre estará aberto a novas opiniões
-        > e ponto de vista. Portanto, ao requisitar alguma atualização lembre-se
-        > que esta lib é uma ajuda, não um direito tenha educação e simpatia.
+        > Lembrando que, o repositÃ³rio estÃ¡ e sempre estarÃ¡ aberto a novas opiniÃµes
+        > e ponto de vista. Portanto, ao requisitar alguma atualizaÃ§Ã£o lembre-se
+        > que esta lib Ã© uma ajuda, nÃ£o um direito tenha educaÃ§Ã£o e simpatia.
+        
+        # Ideias para possiveis atualizaÃ§Ãµes:
+        
+        - Criptografia de texto
+        - Gerador de WordList para ataques brute force
+        - Captura de tela de website por webscrapping
         
         ### Como instalar
         
-        Para usar esta library com o Python é bem simples, basta instala-la usando o gerenciador de pacotes pipy , com o seguinte comando:
+        Para usar esta library com o Python Ã© bem simples, basta instala-la usando o gerenciador de pacotes pipy , com o seguinte comando:
         
         ```sh
         $ pip install dudsec
         ```
         
-        E após isto, importa-lo desta maneira:
+        E apÃ³s isto, importa-lo desta maneira:
         
         ```sh
         import * from dudesec
         ```
-        # Documentação de funções e código:
+        # DocumentaÃ§Ã£o de funÃ§Ãµes e cÃ³digo:
         
-        Para ficar por dentro de como implementar tais funções ao seu código, [clique aqui](#) e veja detalhadamente o que cada função faz de acordo com seu código.
+        Para ficar por dentro de como implementar tais funÃ§Ãµes ao seu cÃ³digo, [clique aqui](#) e veja detalhadamente o que cada funÃ§Ã£o faz de acordo com seu cÃ³digo.
         
         ## Desenvolvedores:
         
         Gustavo de Oliveira Rosa
+        
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
