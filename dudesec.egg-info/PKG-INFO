@@ -11,29 +11,29 @@ Description: # DudeProject - DudeSec v0.0.3
         [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://test.pypi.org/project/dudesec/1.0.0/)
         
         
-        O projeto Dude tem como objetivo criar librarys para diversas funcionalidades em diversas linguagens, portanto, um de seus mÃ³dulos Ã© o de Seguranca CibernÃ©tica.
-        Neste repositÃ³rio, iremos abranger os seguintes objetivos:
+        O projeto Dude tem como objetivo criar librarys para diversas funcionalidades em diversas linguagens, portanto, um de seus módulos é o de Seguranca Cibernética.
+        Neste repositório, iremos abranger os seguintes objetivos:
         
-          - SeguranÃ§a e monitoramento de redes.
-          - SeguranÃ§a e monitoramento de servidores.
-          - SeguranÃ§a e monitoramento de aplicaÃ§Ãµes.
+          - Segurança e monitoramento de redes.
+          - Segurança e monitoramento de servidores.
+          - Segurança e monitoramento de aplicações.
         
-        Para acompanhar a library, usamos a seguinte lÃ³gica: Na branch master, estarÃ¡ presente a versÃ£o mais atual. Nas outras branchs, estarÃ£o disponibilizadas o cÃ³digo de acordo com a versÃ£o.
+        Para acompanhar a library, usamos a seguinte lógica: Na branch master, estará presente a versão mais atual. Nas outras branchs, estarão disponibilizadas o código de acordo com a versão.
         
-        # Ferramentas presentes na versÃ£o atual:
+        # Ferramentas presentes na versão atual:
         
-          - Scanner de portas abertas a partir de um range prÃ© definido. (v0.0.1)
-          - Monitoramento de aplicaÃ§Ãµes WEB atravÃ©s de webscrapping. (v0.0.2)
+          - Scanner de portas abertas a partir de um range pré definido. (v0.0.1)
+          - Monitoramento de aplicações WEB através de webscrapping. (v0.0.2)
           - Monitoramento de dominios.(v0.0.2)
-          - Monitoramento de aplicaÃ§Ãµes APIS.(v0.0.3)
-          - ImplementaÃ§Ã£o de WEBHOOK para atualizaÃ§Ãµes. (v0.0.4)
-          - CodificaÃ§Ã£o e decodificaÃ§Ã£o de textos usando base64.(v0.0.4)
+          - Monitoramento de aplicações APIS.(v0.0.3)
+          - Implementação de WEBHOOK para atualizações. (v0.0.4)
+          - Codificação e decodificação de textos usando base64.(v0.0.4)
         
-        > Lembrando que, o repositÃ³rio estÃ¡ e sempre estarÃ¡ aberto a novas opiniÃµes
-        > e ponto de vista. Portanto, ao requisitar alguma atualizaÃ§Ã£o lembre-se
-        > que esta lib Ã© uma ajuda, nÃ£o um direito tenha educaÃ§Ã£o e simpatia.
+        > Lembrando que, o repositório está e sempre estará aberto a novas opiniões
+        > e ponto de vista. Portanto, ao requisitar alguma atualização lembre-se
+        > que esta lib é uma ajuda, não um direito tenha educação e simpatia.
         
-        # Ideias para possiveis atualizaÃ§Ãµes:
+        # Ideias para possiveis atualizações:
         
         - Criptografia de texto
         - Gerador de WordList para ataques brute force
@@ -41,25 +41,17 @@ Description: # DudeProject - DudeSec v0.0.3
         
         ### Como instalar
         
-        Para usar esta library com o Python Ã© bem simples, basta instala-la usando o gerenciador de pacotes pipy , com o seguinte comando:
+        Para usar esta library com o Python é bem simples, basta instala-la usando o gerenciador de pacotes pipy , com o seguinte comando:
         
         ```sh
         $ pip install dudsec
         ```
         
-        E apÃ³s isto, importa-lo desta maneira:
+        E após isto, importa-lo desta maneira:
         
         ```sh
         import * from dudesec
         ```
-        # DocumentaÃ§Ã£o de funÃ§Ãµes e cÃ³digo:
-        
-        Para ficar por dentro de como implementar tais funÃ§Ãµes ao seu cÃ³digo, [clique aqui](#) e veja detalhadamente o que cada funÃ§Ã£o faz de acordo com seu cÃ³digo.
-        
-        ## Desenvolvedores:
-        
-        Gustavo de Oliveira Rosa
-        
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License

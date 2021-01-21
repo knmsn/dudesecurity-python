@@ -1,0 +1,4 @@
+## Anotação para os desenvolvedores
+
+1- python3 setup.py sdist
+2- twine upload dist/* --repository-url https://test.pypi.org/legacy/
