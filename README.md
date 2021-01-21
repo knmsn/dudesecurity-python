@@ -44,6 +44,3 @@ E após isto, importa-lo desta maneira:
 ```sh
 import * from dudesec
 ```
-# Documentação de funções e código:
-
-Para ficar por dentro de como implementar tais funções ao seu código, [clique aqui](#) e veja detalhadamente o que cada função faz de acordo com seu código.
