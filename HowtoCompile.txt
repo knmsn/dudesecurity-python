@@ -3,3 +3,20 @@
 1- python3 setup.py sdist
 2- twine upload dist/* --repository-url https://test.pypi.org/legacy/
 3- python setup.py sdist upload -r pypi
+
+## Exemplo de .pypirc
+
+[distutils]
+index-servers =
+  pypi
+  pypitest
+
+[pypi]
+repository: https://test.pypi.org/project/dudesec/
+username: 
+password: 
+
+[pypitest]
+repository: https://pypi.org/project/dudesec/
+username: 
+password: 

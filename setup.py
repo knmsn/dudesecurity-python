@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="dudesec",
-    version="0.0.9",
+    version="1.0.0",
     author="Gustavo de Oliveira Rosa",
     author_email="gustavoolrosa2019@gmail.com",
     description="Library para monitoramento de sistemas e exploração de vulnerabilidades.",
