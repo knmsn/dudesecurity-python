@@ -1,2 +1,11 @@
-beautifulsoup4
+base64
+bs4
+itertools
+os
 ping3
+random
+random
+requests
+socket
+string
+urllib.request
