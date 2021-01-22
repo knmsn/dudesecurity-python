@@ -84,7 +84,7 @@ def decodeBase64(texto):
 
 
 
-def generateWorldList(word_size, profile, path):
+def generateWordList(word_size, profile, path):
 
     if isinstance(profile, dict):
         birthdate_yy = profile["birthdate"][-2:]
