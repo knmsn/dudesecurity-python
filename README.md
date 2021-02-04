@@ -45,3 +45,7 @@ E após isto, importa-lo desta maneira:
 ```sh
 import * from dudesec
 ```
+### Nossa comunidade & documentação
+
+Comunidade: https://dudesecurity.darwinproject.online/
+Documentação: https://dudesecurity.darwinproject.online/documentation.html
