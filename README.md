@@ -1,5 +1,4 @@
-# DudeProject - DudeSec v0.0.3
-
+# DudeProject
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://test.pypi.org/project/dudesec)
 
 
@@ -15,14 +14,14 @@ Para acompanhar a library, usamos a seguinte lógica: Na branch master, estará 
 
 # Ferramentas presentes na versão atual:
 
-  - Scanner de portas abertas a partir de um range pré definido. (v0.0.1)
-  - Monitoramento de aplicações WEB através de webscrapping. (v0.0.2)
-  - Monitoramento de dominios.(v0.0.2)
-  - Monitoramento de aplicações APIS.(v0.0.3)
-  - Implementação de WEBHOOK para atualizações. (v0.0.4)
-  - Codificação e decodificação de textos usando base64.(v0.0.4)
-  - Varredura de portas para exploração de vunerabilidades.(v0.0.4)
-  - Gerador de WorldList para ataques brute-force.(v0.0.4)
+  - Scanner de portas abertas a partir de um range pré definido.
+  - Monitoramento de aplicações WEB através de webscrapping.
+  - Monitoramento de dominios.
+  - Monitoramento de aplicações APIS.
+  - Implementação de WEBHOOK para atualizações.
+  - Codificação e decodificação de textos usando base64.
+  - Varredura de portas para exploração de vunerabilidades.
+  - Gerador de WorldList para ataques brute-force.
 
 > Lembrando que, o repositório está e sempre estará aberto a novas opiniões
 > e ponto de vista. Portanto, ao requisitar alguma atualização lembre-se
