@@ -1,4 +1,4 @@
-# DudeSecurity
+# DudeSecurity - Python
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://test.pypi.org/project/dudesec)
 
 
