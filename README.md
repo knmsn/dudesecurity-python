@@ -1,14 +1,15 @@
 # DudeProject - DudeSec v0.0.3
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://test.pypi.org/project/dudesec/1.0.0/)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://test.pypi.org/project/dudesec)
 
 
-O projeto Dude tem como objetivo criar librarys para diversas funcionalidades em diversas linguagens, portanto, um de seus módulos é o de Seguranca Cibernética.
+O projeto Dude tem como objetivo a criação de uma library para python ligado a segurança cibernética e monitoramento de servidores e estações datrabalho.
 Neste repositório, iremos abranger os seguintes objetivos:
 
   - Segurança e monitoramento de redes.
   - Segurança e monitoramento de servidores.
   - Segurança e monitoramento de aplicações.
+  - Segurança de estações de trabalho e computadores pessoais.
 
 Para acompanhar a library, usamos a seguinte lógica: Na branch master, estará presente a versão mais atual. Nas outras branchs, estarão disponibilizadas o código de acordo com a versão.
 
@@ -20,6 +21,8 @@ Para acompanhar a library, usamos a seguinte lógica: Na branch master, estará 
   - Monitoramento de aplicações APIS.(v0.0.3)
   - Implementação de WEBHOOK para atualizações. (v0.0.4)
   - Codificação e decodificação de textos usando base64.(v0.0.4)
+  - Varredura de portas para exploração de vunerabilidades.(v0.0.4)
+  - Gerador de WorldList para ataques brute-force.(v0.0.4)
 
 > Lembrando que, o repositório está e sempre estará aberto a novas opiniões
 > e ponto de vista. Portanto, ao requisitar alguma atualização lembre-se
@@ -27,8 +30,6 @@ Para acompanhar a library, usamos a seguinte lógica: Na branch master, estará 
 
 # Ideias para possiveis atualizações:
 
-- Criptografia de texto
-- Gerador de WordList para ataques brute force
 - Captura de tela de website por webscrapping
 
 ### Como instalar
