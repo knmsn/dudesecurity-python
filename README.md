@@ -46,5 +46,4 @@ import * from dudesec
 ```
 ### Nossa comunidade & documentação
 
-Comunidade: https://dudesecurity.darwinproject.online/
-Documentação: https://dudesecurity.darwinproject.online/documentation.html
+Comunidade: https://dudeproject.online
