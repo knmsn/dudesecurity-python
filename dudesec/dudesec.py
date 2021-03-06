@@ -12,22 +12,15 @@ import base64
 from random import choice
 import string
 
-def portScanner(ip,x,y):
-    portasAbertas = []
-    x = int(x)
-    y = int(y)
-    while True:
-        socket_verification = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        alvo = (ip, x)
-        resultado = socket_verification.connect_ex(alvo)
-        socket_verification.close()
-        if resultado == 0:
-            portasAbertas.append(int(x))
-        if x == y:
-            return portasAbertas
-            break
-        else:
-            x = x+1
+
+## Importante funções
+import functions.portScan
+
+
+def portScanner(x,y,debug):
+    return functions.portScan.functionPS(x,y,debug)
+
+portScanner(1,100,False)
 
 def generateCpf():
     
