@@ -20,8 +20,6 @@ import functions.portScan
 def portScanner(x,y,debug):
     return functions.portScan.functionPS(x,y,debug)
 
-portScanner(1,100,False)
-
 def generateCpf():
     
 
