@@ -14,11 +14,11 @@ import string
 
 
 ## Importante funções
-import functions.portScan
+import portScan
 
 
 def portScanner(x,y,debug):
-    return functions.portScan.functionPS(x,y,debug)
+    return portScan.functionPS(x,y,debug)
 
 def generateCpf():
     
