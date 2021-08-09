@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: dudesec
+Version: 7.0
+Summary: Library para monitoramento de sistemas e exploração de vulnerabilidades.
+Home-page: https://github.com/GustavoOliveiraRosa/DudSecPython
+Author: Gustavo de Oliveira Rosa
+Author-email: gustavoolrosa2019@gmail.com
+License: UNKNOWN
+Description: # DudeSecurity - Python
+        [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://test.pypi.org/project/dudesec)
+        
+        
+        O projeto Dude tem como objetivo a criaÃ§Ã£o de uma library para python ligado a seguranÃ§a cibernÃ©tica e monitoramento de servidores e estaÃ§Ãµes datrabalho.
+        Neste repositÃ³rio, iremos abranger os seguintes objetivos:
+        
+          - SeguranÃ§a e monitoramento de redes.
+          - SeguranÃ§a e monitoramento de servidores.
+          - SeguranÃ§a e monitoramento de aplicaÃ§Ãµes.
+          - SeguranÃ§a de estaÃ§Ãµes de trabalho e computadores pessoais.
+        
+        Para acompanhar a library, usamos a seguinte lÃ³gica: Na branch master, estarÃ¡ presente a versÃ£o mais atual. Nas outras branchs, estarÃ£o disponibilizadas o cÃ³digo de acordo com a versÃ£o.
+        
+        # Ferramentas presentes na versÃ£o atual:
+        
+          - Scanner de portas abertas a partir de um range prÃ© definido.
+          - Monitoramento de aplicaÃ§Ãµes WEB atravÃ©s de webscrapping.
+          - Monitoramento de dominios.
+          - Monitoramento de aplicaÃ§Ãµes APIS.
+          - ImplementaÃ§Ã£o de WEBHOOK para atualizaÃ§Ãµes.
+          - CodificaÃ§Ã£o e decodificaÃ§Ã£o de textos usando base64.
+          - Varredura de portas para exploraÃ§Ã£o de vunerabilidades.
+          - Gerador de WorldList para ataques brute-force.
+        
+        > Lembrando que, o repositÃ³rio estÃ¡ e sempre estarÃ¡ aberto a novas opiniÃµes
+        > e ponto de vista. Portanto, ao requisitar alguma atualizaÃ§Ã£o lembre-se
+        > que esta lib Ã© uma ajuda, nÃ£o um direito tenha educaÃ§Ã£o e simpatia.
+        
+        # Ideias para possiveis atualizaÃ§Ãµes:
+        
+        - Captura de tela de website por webscrapping
+        
+        ### Como instalar
+        
+        Para usar esta library com o Python Ã© bem simples, basta instala-la usando o gerenciador de pacotes pipy , com o seguinte comando:
+        
+        ```sh
+        $ pip install dudsec
+        ```
+        
+        E apÃ³s isto, importa-lo desta maneira:
+        
+        ```sh
+        import * from dudesec
+        ```
+        ### Nossa comunidade & documentaÃ§Ã£o
+        
+        Comunidade: https://dudeproject.online
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
